@@ -1,0 +1,15 @@
+{
+  "name": "orangepifancontroll",
+  "version": "1.0.0",
+  "description": "orage pi pwm (PA05) fan controll NPN transistor and 5v DC FAN",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrey Maznyak (andreymaznyak@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "forever-monitor": "^1.7.1",
+    "python-shell": "^0.4.0"
+  }
+}
