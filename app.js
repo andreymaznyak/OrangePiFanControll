@@ -17,7 +17,7 @@ function check_temp(){
 			console.log("on fun");
 			fun_enable = true;
 			options.args = ["-r","-d",(temp > 70) ? "100" : "75", "-f","100"]
-		}else if(temp < 50 && fun_enable){
+		}else if(temp < 53 && fun_enable){
 			fun_enable = false;
 			console.log("off fun");
 		}else{
